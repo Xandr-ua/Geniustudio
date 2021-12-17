@@ -1,0 +1,40 @@
+body{
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style-type: none;
+}
+
+img{
+	max-width: 100%;
+	display: block;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.conteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.screen__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    background: linear-gradient(341.67deg, #00BBE4 -32.46%, #294293 64.36%);
+}
+
+.img-1 {
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin-right: 20px;
+}
